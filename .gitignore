@@ -1,0 +1,15 @@
+# ビルド生成物 (build.bat が作るもの)
+.venv/
+build/
+dist/
+__pycache__/
+*.pyc
+*.spec
+NavyHUD.exe
+NavyHUD_PresentMon.exe
+
+# 一時ファイル
+*.tmp
+*.log
+Thumbs.db
+desktop.ini

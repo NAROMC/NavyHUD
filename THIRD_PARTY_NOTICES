@@ -1,0 +1,43 @@
+NavyHUD - Third-party notices
+=============================
+
+NavyHUD (MIT License, see LICENSE) uses or bundles the following third-party software.
+
+1. PresentMon  (bundled into NavyHUD.exe as NavyHUD_PresentMon.exe)
+   Project : https://github.com/GameTechDev/PresentMon
+   License : MIT License
+   Copyright (c) Intel Corporation
+   Used for measuring the frame rate (FPS). The binary is downloaded unmodified from the
+   project's official GitHub Releases by get_presentmon.ps1 at build time.
+   The full license text is available at:
+   https://github.com/GameTechDev/PresentMon/blob/main/LICENSE.txt
+
+2. PySide6 / Qt for Python  (bundled into NavyHUD.exe)
+   Project : https://doc.qt.io/qtforpython-6/
+   License : GNU Lesser General Public License v3 (LGPL-3.0) (Qt for Python modules)
+   Copyright (c) The Qt Company Ltd. and other contributors
+   NavyHUD uses PySide6 as an unmodified library. In accordance with the LGPL, the source
+   code of NavyHUD is published in this repository, so you may rebuild NavyHUD.exe with
+   a different version of PySide6 by running build.bat.
+   LGPL-3.0 text : https://www.gnu.org/licenses/lgpl-3.0.html
+   PySide6 source: https://code.qt.io/cgit/pyside/pyside-setup.git/
+
+3. PyInstaller  (used only to build the exe)
+   Project : https://pyinstaller.org/
+   License : GPL-2.0-or-later with a special exception that allows the generated
+             executables to be distributed under any license.
+
+4. Python  (bundled into NavyHUD.exe)
+   Project : https://www.python.org/
+   License : Python Software Foundation License
+             https://docs.python.org/3/license.html
+
+Fonts such as Segoe UI, Yu Gothic UI and Segoe UI Emoji are installed with Windows and
+are NOT bundled with NavyHUD.
+
+Trademarks
+----------
+Minecraft is a trademark of Mojang AB / Microsoft. Hive, Zeqa, CubeCraft and other names
+are trademarks of their respective owners. They are mentioned only to describe
+compatibility (e.g. ping presets). NavyHUD is an unofficial, fan-made tool and is not
+affiliated with, endorsed by, or sponsored by any of them.
